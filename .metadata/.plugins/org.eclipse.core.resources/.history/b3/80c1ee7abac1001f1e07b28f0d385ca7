@@ -1,0 +1,10 @@
+package spring;
+
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+
+@ComponentScan(basePackages = "")
+@Configuration   //beans 하나 만든것과 같음.
+public class SpringConfig {
+	
+}

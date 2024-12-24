@@ -1,0 +1,16 @@
+package spring;
+
+public class SpringHome implements SpringRUnner {
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	
+
+}
+
+
+

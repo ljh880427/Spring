@@ -1,0 +1,19 @@
+package app;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class Home {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String xml = "app-context.xml";
+		ApplicationContext context = new ClassPathXmlApplicationContext(xml);
+		Test1 t1 = context.getBean(Test1.class);
+		
+		System.out.println("스프링은 자바의 봄이다!");
+		
+	}
+
+}

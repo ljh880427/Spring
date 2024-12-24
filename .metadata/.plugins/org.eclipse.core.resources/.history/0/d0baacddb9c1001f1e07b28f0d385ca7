@@ -1,0 +1,7 @@
+package spring;
+
+import org.springframework.aop.SpringProxy;
+
+public class SpringHome implements SpringProxy {
+
+}
